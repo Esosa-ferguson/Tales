@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/modal.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/e.css">
+    <link rel="stylesheet" href="./css/loader.css">
+    <link rel="stylesheet" href="./css/favourite.css">
+    <link>
+    <link rel="stylesheet" href="./css/calculator.css">
+    <link>
+    <link rel="stylesheet" href="./css/footer.css">
+    
+    <link rel="stylesheet" href="./css/hamburger.css">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>NutriPlanner</title>
+  </head>
+  <body>
+  <div id="loader" class="loader-overlay">
+  <div class="loader-content">
+    <div class="loader-plate">
+      <div class="loader-food"></div>
+    </div>
+    <div class="loader-brand">
+      <span class="brand-logo"><i class="fa-solid fa-utensils"></i></span>
+      <span class="brand-name">Tales NutriPlanner</span>
+    </div>
+        <div class="loader-text">preparing your meal...</div>
+  </div>
+</div>
+    <!-- Hamburger Menu for Mobile -->
+    <nav class="navbar">
+      <div class="brand-name">
+        <img src="./images/logo.png" alt="NutriPlanner Logo" height="60" width="60" hidden>
+        <span class="brand">Tales NutriPlanner</span>
+       
+      </div>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-controls="navMenu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <ul class="nav-links" id="navMenu">
+        <li><a href="#">Home</a></li>
+        <li><button>Favourite</button></li>
+        <li><a href="#about">About</a></li>
+           <li><a href="#feedback">Feedback</a></li>
+        <li><a href="#reviewText">Contact</a></li>
+      </ul>
+    </nav>
+    <header class="hero">
+      <h1>Find the perfect meal<br />for your nutrition goals</h1>
+
+      <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Search meals..." />
+        <div class="responsive">
+          <select id="calorie-select">
+            <option value="">All Calories</option>
+            <option value="low">Low Calories: 50-200</option>
+            <option value="medium">Medium Calories: 200-350</option>
+            <option value="high">High Calories >350</option>
+          </select>
+          <select id="diet-select">
+            <option value="">All Diets</option>
+            <option value="Vegan">Vegan</option>
+            <option value="Keto">Keto</option>
+            <option value="High Protein">High Protein</option>
+            <option value="Low Carb">Low Carb</option>
+          </select>
+        </div>
+          <button id="search-btn" class="filter-btn" onclick="openModal()">
+            <i class="fa-solid fa-calculator"></i>
+          </button>
+      </div>
+    </header>
+    <main>
+      <section class="meals-section">
+      
+        <div class="meal-tabs">
+          <button>Breakfast</button>
+          <button>Lunch</button>
+          <button>Dinner</button>
+          <button>Snacks</button>
+          <button>Smoothies</button>
+          <button>Show All </button>
+        </div>
+        <div class="meals-list"></div>
+        <div id="search-message" class="search-message"></div>
+        <div class="meals-list-controls">
+          <button id="show-more-btn" class="filter-btn" style="display: none">
+           Show More
+          </button>
+          <button id="hide-btn" class="filter-btn" style="display: none">
+            Hide
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <div id="meal-modal" class="modal hidden">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <div class="modal-header">
+          <img id="modal-meal-img" src="" alt="Meal Image" />
+          <div>
+            <h2 id="modal-meal-title"></h2>
+            <div id="modal-meal-tags"></div>
+          </div>
+        </div>
+
+        <div class="modal-nutrition">
+          <h3>Nutritional Breakdown</h3>
+          <p id="modal-meal-nutrition"></p>
+          <br />
+          <h3>Ingredients</h3>
+          <p id="modal-meal-ingredients"></p>
+          <br />
+          <h3>Steps</h3>
+          <p id="modal-meal-steps"></p>
+        </div>
+      </div>
+    </div>
+    <!-- nutition calculator -->
+
+    <div class="calcmodal hidden" id="nutritionModal">
+      <div class="modal-content" id="calcModalContent">
+        <h2>Select Ingredients</h2>
+        <span onclick="closeModal()" class="close-btn">&times;</span>
+        <div class="calculator-flex-row">
+          <div class="scroll-calculator" style="overflow-y: auto ; height: 95%; " >
+          <div id="ingredientsList" ></div>
+          </div>
+          <div class="calc">
+          <div class="result" id="resultBox">
+            <h1>how</h1>
+          </div>
+           <button onclick="calculateNutrition()" class="calcbutton">
+          Calculate
+        </button>
+        </div>
+        </div>
+       
+      </div>
+    </div>
+
+    <div id="favouritesModal" class="modal favourites-modal hidden">
+  <div class="favModal-content">
+    <span class="close-btn" onclick="document.body.classList.remove('body-modal-open');document.getElementById('favouritesModal').classList.add('hidden')">&times;</span>
+    <h2>Favourites</h2>
+    <div class="favModal-back" style="background-color: wheat; padding: 3rem; border-radius: 4px; " >
+      <div class="favourites-list"></div>
+    </div>
+  </div>
+</div>
+
+    <!-- Fonts -->
+
+    <!-- ===== CONTAINER 1: ABOUT / HERO ===== -->
+    <section class="container container-hero about-section" id="about">
+      <div class="about-content">
+        <h2 class="about-title">About Us</h2>
+        <div class="about-swiper">
+          <div class="about-slide active">
+            <p class="about-description">
+              <span class="highlight">NutriPlanner</span> is your modern companion for healthy living. We believe food is more than fuel—it's a story of tradition, health, and care. Our platform empowers you to plan meals that fit your lifestyle and nutrition goals, with expert guidance and a seamless experience.<br><br>
+              <strong>Why NutriPlanner?</strong><br>
+              <ul class="about-list">
+                <li><i class="fa-solid fa-check"></i> Personalized meal planning for every goal</li>
+                <li><i class="fa-solid fa-check"></i> Evidence-based nutrition advice</li>
+                <li><i class="fa-solid fa-check"></i> Easy-to-use tools for tracking and feedback</li>
+                <li><i class="fa-solid fa-check"></i> Support from a team of wellness experts</li>
+              </ul>
+            </p>
+          </div>
+          <div class="about-slide">
+            <p class="about-description">
+              <span class="highlight">Tales</span>: A Journey Through Meals, <br>
+              Every dish tells a story. Let’s write yours.<br><br>
+              At <span class="highlight">Tales</span>, we believe that food is more than just fuel — it’s a powerful storyteller. Each meal speaks of tradition, health, intention, and care. That’s why we built <span class="highlight">Tales</span>: a digital companion to help you plan and enjoy meals that align with your lifestyle and goals.<br><br>
+              Whether you’re focused on wellness, managing nutrition, or simply staying organized, <span class="highlight">Tales</span> helps you create a meaningful path — one plate at a time.<br>
+             <span class="highlight"> Personalized meal planning for every goal</span>
+            </p>
+           
+                
+                
+          </div>
+          <div class="about-swiper-controls">
+            <button class="about-swiper-btn" id="aboutPrev"><i class="fa-solid fa-chevron-left"></i></button>
+            <button class="about-swiper-btn" id="aboutNext"><i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+   
+    </script>
+
+     
+        <section class="section-background" style="background: #e87c3d;">
+     
+        <section class="section-background" style="background: #e87c3d;">
+ <!-- ===== CONTAINER 2: TEAM SLIDER ===== -->
+    <section class="container container-team">
+      <h2 class="section-title">Our Expert Team</h2>
+
+      <div class="slider">
+        <div class="slide-track">
+          <!-- 1 -->
+  <div class="slide">
+            <img class="avatar" src="./images/treasure.jpg" alt="Treasure" />
+            <h3 class="person-name">Treasure</h3>
+            <p class="person-role">Wellness Coordinator</p>
+            <p class="person-bio">
+  Coordinates holistic wellness plans, ensuring a seamless journey towards better health and lifestyle.
+</p>
+          </div>
+
+          
+
+          <!-- 2 -->
+          <div class="slide">
+            <img class="avatar" src="./images/abdul.jpg" alt="Abubakr" />
+            <h3 class="person-name">Abubakr</h3>
+            <p class="person-role">Health Research Analyst</p>
+            <p class="person-bio">
+        Combines a decade of research expertise to develop evidence-based health solutions for balanced living.
+        </p>
+          </div>
+
+          <div class="slide">
+            <img class="avatar" src="./images/lekan.jpg" alt="Lekan" />
+            <h3 class="person-name">Lekan</h3>
+            <p class="person-role">Lead Nutritionist</p>
+            <p class="person-bio">
+  Provides expert nutrition guidance, crafting meal plans backed by years of clinical and practical experience.
+</p>
+          </div>
+         
+          <div class="slide">
+            <img class="avatar" src="./images/Esosa.jpg" alt="Esosa" />
+            <h3 class="person-name">Esosa</h3>
+            <p class="person-role">Program Director</p>
+            <p class="person-bio">
+  Oversees innovative wellness programs, blending experience and vision to deliver impactful results.
+      </p>
+          </div>
+
+          
+<div class="slide">
+            <img class="avatar" src="./images/avis.jpg" alt="Avis" />
+            <h3 class="person-name avis">Avi<span class = " last-letter">S</span></h3>
+              
+            <p class="person-role">Fitness Advisor</p>
+            <p class="person-bio" id="feedback">
+             With over 10 years of guiding clients, brings expert fitness strategies to achieve sustainable health goals.
+              </p >
+        
+            </p>
+          </div>
+
+        
+        </div >
+      </div>
+    </section>
+
+    <!-- ===== CONTAINER 3: REVIEWS / CONTACT / MAP ===== -->
+    <section class="container container-review-contact">
+      <div class="grid">  
+        <!-- Rate this app -->
+       
+        <!-- Reviews -->
+        <div class="card reviews-card">
+          <h3 class="block-title">Reviews</h3>
+
+          <div class="review">
+            <div class="review-body">
+              <div class="review-title">David Rosh</div>
+              <div class="review-text">
+                This is so helpful, I've lost so much weight thanks to this food
+                planner.
+              </div>
+              <div class="review-stars">
+                &#9733;&#9733;&#9733;&#9733;&#9734;
+              </div>
+            </div>
+          </div>
+
+          <div class="review">
+            <div class="review-body">
+              <div class="review-title">Dammy Davids</div>
+              <div class="review-text">
+                I’ve been working out for about 6yrs and haven't seen progress
+                but since I started using this planner I have started seeing
+                progress.
+              </div>
+              <div class="review-stars">
+                &#9733;&#9733;&#9733;&#9733;&#9734;
+              </div>
+            </div>
+          </div>
+          
+        </div>
+         <div class="card rate-card">
+          <h3 class="block-title">Feedback</h3>
+          <p class="muted">Tell others what you think</p>
+
+          <div class="stars" id="stars">
+            <span data-value="1" aria-label="1 star">&#9733;</span>
+            <span data-value="2" aria-label="2 stars">&#9733;</span>
+            <span data-value="3" aria-label="3 stars">&#9733;</span>
+            <span data-value="4" aria-label="4 stars">&#9733;</span>
+            <span data-value="5" aria-label="5 stars">&#9733;</span>
+          </div>
+
+          <textarea
+            id="reviewText"
+            class="review-input"
+            placeholder="Write a review"
+          ></textarea >
+          <button id="submitReview" class="btn">Submit</button>
+          <p id="thankYou" class="thank-you"  ></p>
+        </div>
+            </div>
+            
+        <div class="location-info">
+ <div class="card contact-card">
+          <h3 class="block-title">Contact Us</h3>
+          <div class="contact-row"> <i class="fa-solid fa-envelope"></i> TalesPlanner@gmail.com</div>
+           <div class="contact-row"> <i class="fa-solid fa-message"></i> +234 813 850 7446</div>
+          <div class="contact-row"> <i class="fa-solid fa-phone"></i> +234 815 067 5245</div>
+          <div class="contact-row"> <i class="fa-solid fa-phone"></i> +234 811 448 2774</div>
+                    <div class="contact-row"> <i class="fa-solid fa-phone"></i> +234 708 208 0599</div>
+                     <div class="contact-row"> <i class="fa-solid fa-phone"></i> +234 912 370 9687</div>
+        </div>
+
+        <div class="card location-card">
+          <h3 class="block-title">Location</h3>
+          <p class="muted"> <i class="fa-solid fa-location-dot"></i> 27 Addo Road, Ajah, Lekki, Lagos, Nigeria</p>
+       for the google maps , replace the old iframe with this one 
+
+
+<iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.9099935972585!2d3.577169575082589!3d6.468248993528842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf7f7e4d46cf3%3A0x7d2f799e9e67c96c!2sAjah%20Bus%20Stop!5e0!3m2!1sen!2sng!4v1692378276765"
+  width="100%"
+  height="300"
+  style="border:0; border-radius: 10px;"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+    
+      </div> 
+      </div>
+        </div>
+        </section>
+<footer>
+        <div class="maincontent">
+             <div class="flex">
+        <div class="flex1">
+            <h4>Tales NutriPlanner</h4>
+            <header>Dieting has never been so easy <br> modern food planner since 2020
+            </header>
+            <a href="">
+              <i class="fa-brands fa-facebook-f">
+              </i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-twitter">
+            </i>
+            </a>
+            <a href="">
+             <i class="fa-brands fa-linkedin-in">
+            </i>
+            </a>
+            <a href="">
+            <i class="fa-brands fa-instagram">
+            </i>
+            </a>
+        </div>
+        <div class="flex3">
+            <h4 class="ci">Contact Info</h4>
+            <i class="fa-solid fa-location-dot"></i> 27 Addo Road, Ajah, Lekki, Lagos, Nigeria <br>
+            +234 813 850 7446<br> +234 815 067 5245 <br> +234 811 448 2774 <br> +234 912 370 9687<br>
+            <i class="fa-solid fa-envelope"></i> talesplanner@gmail.com
+        </div>
+        <!-- <div>
+            <h4>Newsletter</h4>
+            Suscribe to get updates on <br> our latest offers <br> <br>
+               <button class="mailsub">
+                 <input class="mail"
+                type="email" name="email" id="email" placeholder="your email">
+                <a href="" class="sub">Subscribe
+               </button></a>
+        </div> -->
+    </div>
+    <hr>
+    <div class="pflex">
+       <div>&copy;2025 Tales NutriPlanner. All right reserved.</div> 
+        <div class="ptflex">
+            <div>Privacy Policy</div>
+            <div>Terms Of Service</div>
+        </div>
+    </div>
+        </div>
+    </footer>
+        
+       
+    <!-- </section>
+
+    <!Scripts -->
+    <script src="../js/e.js"></script>
+
+    <script src="../js/nutrition.js"></script>
+    <script src="../js/favourites.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/modal.js"></script>
+    <script src="../js/search.js"></script>
+    <script src="../js/animateMeals.js"></script>
+<script src="../js/loader.js"></script>
+<script src="../js/hamburger.js"></script>
+</html>

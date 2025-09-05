@@ -1,0 +1,2277 @@
+{
+  "Breakfast": [
+    {
+      "img": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80",
+      "name": "Vegetable Omelette",
+      "kcal": "350 kcal",
+      "tag": "Low Carb",
+      "nutrition": {
+        "Calories": 350,
+        "Protein": "15g",
+        "Carbs": "12g",
+        "Fat": "25g"
+      },
+      "ingredients": [
+        "3 eggs",
+        "1/2 cup diced bell peppers",
+        "1/4 cup onions",
+        "Spinach leaves",
+        "Salt",
+        "Pepper",
+        "1 tbsp olive oil"
+      ],
+      "steps": [
+        "Beat eggs in a bowl with salt and pepper.",
+        "Heat olive oil in a pan, sauté vegetables for 2–3 minutes.",
+        "Pour eggs over veggies, cook until set, fold and serve."
+      ]
+    },
+
+    {
+      "img": "https://i.pinimg.com/736x/d6/65/57/d66557090f942dd310934e18bcf7e998.jpg",
+      "name": "Avocado Toast with Cherry Tomatoes",
+      "kcal": "300 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 300,
+        "Protein": "7g",
+        "Carbs": "35g",
+        "Fat": "14g"
+      },
+      "ingredients": [
+        "2 slices whole grain bread",
+        "1 ripe avocado",
+        "6 cherry tomatoes",
+        "Salt",
+        "Black pepper"
+      ],
+      "steps": [
+        "Toast bread slices.",
+        "Mash avocado and spread on toast.",
+        "Top with sliced cherry tomatoes.",
+        "Season with salt and pepper."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/736x/78/25/62/782562903a43215e012bddc589a2aa8a.jpg",
+      "name": "Greek Yogurt with Berries",
+      "kcal": "250 kcal",
+      "tag": "High Protein",
+      "nutrition": {
+        "Calories": 250,
+        "Protein": "18g",
+        "Carbs": "28g",
+        "Fat": "6g"
+      },
+      "ingredients": [
+        "1 cup Greek yogurt (unsweetened)",
+        "1/2 cup mixed berries",
+        "1 tsp honey"
+      ],
+      "steps": [
+        "Scoop yogurt into a bowl.",
+        "Add berries on top.",
+        "Drizzle with honey before serving."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/55/0f/ce/550fce22cd93c8c2cdfecbc11fa13d11.jpg",
+      "name": "Spinach and Feta Omelette",
+      "kcal": "280 kcal",
+      "tag": "Low Carb",
+      "nutrition": {
+        "Calories": 280,
+        "Protein": "20g",
+        "Carbs": "5g",
+        "Fat": "20g"
+      },
+      "ingredients": [
+        "2 eggs",
+        "1/2 cup spinach",
+        "1/4 cup feta cheese",
+        "1 tbsp olive oil",
+        "Salt",
+        "Pepper"
+      ],
+      "steps": [
+        "Whisk eggs with salt and pepper.",
+        "Heat olive oil in a pan and add spinach.",
+        "Pour in eggs and cook until set.",
+        "Sprinkle feta before folding omelette."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/736x/58/18/13/581813955bcd1695ec367e677647278a.jpg",
+      "name": "Chia Seed Pudding",
+      "kcal": "200 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 200,
+        "Protein": "6g",
+        "Carbs": "24g",
+        "Fat": "9g"
+      },
+      "ingredients": [
+        "3 tbsp chia seeds",
+        "1 cup almond milk",
+        "1 tsp maple syrup",
+        "Fresh fruit for topping"
+      ],
+      "steps": [
+        "Mix chia seeds, almond milk, and maple syrup in a bowl.",
+        "Refrigerate for at least 4 hours or overnight.",
+        "Top with fresh fruit before serving."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/a3/1b/ca/a31bca1b9c239f4f31e9c2f5decb7e60.jpg",
+      "name": "Keto Bacon and Egg Muffins",
+      "kcal": "320 kcal",
+      "tag": "Keto",
+      "nutrition": {
+        "Calories": 320,
+        "Protein": "22g",
+        "Carbs": "3g",
+        "Fat": "25g"
+      },
+      "ingredients": [
+        "4 eggs",
+        "4 strips bacon",
+        "1/4 cup shredded cheddar cheese",
+        "Salt",
+        "Pepper"
+      ],
+      "steps": [
+        "Preheat oven to 180°C (350°F).",
+        "Cook bacon until slightly crispy and place in muffin tins.",
+        "Whisk eggs with salt and pepper, pour into tins.",
+        "Sprinkle cheese and bake for 15 minutes."
+      ]
+    },
+
+    {
+      "img": "https://i.pinimg.com/736x/53/e6/50/53e650593f534beccfe4bac68b40e62a.jpg",
+      "name": "Avocado Toast",
+      "kcal": "250 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 250,
+        "Protein": "6g",
+        "Carbs": "30g",
+        "Fat": "12g"
+      },
+      "ingredients": [
+        "2 slices whole grain bread",
+        "1 ripe avocado",
+        "1/4 tsp chili flakes",
+        "Salt",
+        "Lemon juice"
+      ],
+      "steps": [
+        "Toast the bread slices.",
+        "Mash avocado with salt and lemon juice.",
+        "Spread avocado mixture on toast, sprinkle chili flakes, and serve."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/15/41/bc/1541bce002e0776b5770dd34bb12ea80.jpg",
+      "name": "Banana Pancakes",
+      "kcal": "320 kcal",
+      "tag": "Low Carb",
+      "nutrition": {
+        "Calories": 320,
+        "Protein": "10g",
+        "Carbs": "35g",
+        "Fat": "9g"
+      },
+      "ingredients": [
+        "1 banana",
+        "2 eggs",
+        "1/4 cup almond flour",
+        "1/4 tsp cinnamon",
+        "Butter for cooking"
+      ],
+      "steps": [
+        "Mash banana in a bowl, whisk in eggs and cinnamon.",
+        "Stir in almond flour until smooth.",
+        "Cook small pancakes in butter until golden on both sides."
+      ]
+    },
+
+    {
+      "img": "https://i.pinimg.com/1200x/5b/1c/f3/5b1cf32ddcd8ecfdc42f2f8885faa32d.jpg",
+      "name": "Egg Muffins",
+      "kcal": "180 kcal",
+      "tag": "Keto",
+      "nutrition": {
+        "Calories": 180,
+        "Protein": "12g",
+        "Carbs": "3g",
+        "Fat": "13g"
+      },
+      "ingredients": [
+        "6 eggs",
+        "1/4 cup diced tomatoes",
+        "1/4 cup chopped spinach",
+        "Salt",
+        "Pepper"
+      ],
+      "steps": [
+        "Preheat oven to 180°C (350°F).",
+        "Whisk eggs with salt and pepper, stir in vegetables.",
+        "Pour mixture into muffin tins and bake for 15–20 minutes."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/736x/a0/b3/9e/a0b39e8f9c6bb391c0b3a472656745ef.jpg",
+      "name": "Chia Pudding",
+      "kcal": "160 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 160,
+        "Protein": "4g",
+        "Carbs": "20g",
+        "Fat": "7g"
+      },
+      "ingredients": [
+        "1/4 cup chia seeds",
+        "1 cup almond milk",
+        "1 tsp vanilla extract",
+        "1 tbsp maple syrup"
+      ],
+      "steps": [
+        "Mix chia seeds, almond milk, vanilla, and maple syrup in a bowl.",
+        "Cover and refrigerate overnight.",
+        "Stir before serving and top with fruits."
+      ]
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80",
+      "name": "Egg & Spinach Wrap",
+      "kcal": "270 kcal",
+      "tag": "Keto",
+      "nutrition": {
+        "Calories": 270,
+        "Protein": "14g",
+        "Carbs": "10g",
+        "Fat": "18g"
+      },
+      "ingredients": [
+        "2 eggs",
+        "1 low-carb tortilla",
+        "1/2 cup spinach",
+        "1 tbsp cheese",
+        "Salt",
+        "Pepper"
+      ],
+      "steps": [
+        "Scramble eggs with spinach in a pan.",
+        "Place on tortilla, sprinkle cheese, and wrap.",
+        "Serve warm."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/736x/01/32/94/013294ac8d37837827e5547559ee9eec.jpg",
+      "name": "Protein Pancakes",
+      "kcal": "310 kcal",
+      "tag": "High Protein",
+      "nutrition": {
+        "Calories": 310,
+        "Protein": "20g",
+        "Carbs": "40g",
+        "Fat": "6g"
+      },
+      "ingredients": [
+        "1 scoop protein powder",
+        "1 banana",
+        "1 egg",
+        "1/4 cup oat flour",
+        "Almond milk as needed"
+      ],
+      "steps": [
+        "Blend all ingredients until smooth.",
+        "Cook pancakes in a non-stick pan until golden.",
+        "Serve with berries or syrup."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/5a/3f/a9/5a3fa97667bf561de3e28bf43cc035ec.jpg",
+      "name": "Tofu Scramble",
+      "kcal": "220 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 220,
+        "Protein": "12g",
+        "Carbs": "10g",
+        "Fat": "14g"
+      },
+      "ingredients": [
+        "200g firm tofu",
+        "1/2 tsp turmeric",
+        "1/4 cup chopped onions",
+        "Spinach",
+        "Salt",
+        "Pepper"
+      ],
+      "steps": [
+        "Crumble tofu into a pan.",
+        "Add turmeric, onions, and spinach.",
+        "Cook for 5–7 minutes until heated through."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/d4/f1/92/d4f192cb8b38f96fc53fe0cb51430338.jpg",
+      "name": "Cottage Cheese Bowl",
+      "kcal": "210 kcal",
+      "tag": "High Protein",
+      "nutrition": {
+        "Calories": 210,
+        "Protein": "18g",
+        "Carbs": "8g",
+        "Fat": "7g"
+      },
+      "ingredients": [
+        "1 cup cottage cheese",
+        "1/2 cup pineapple chunks",
+        "1 tbsp chia seeds"
+      ],
+      "steps": [
+        "Spoon cottage cheese into a bowl.",
+        "Top with pineapple and chia seeds.",
+        "Serve chilled."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/0d/8c/a9/0d8ca929fb4c1175d892fc72c4b7ff06.jpg",
+      "name": "Sweet Potato Hash",
+      "kcal": "240 kcal",
+      "tag": "Low Carb",
+      "nutrition": {
+        "Calories": 240,
+        "Protein": "6g",
+        "Carbs": "20g",
+        "Fat": "5g"
+      },
+      "ingredients": [
+        "1 sweet potato",
+        "1/2 cup diced bell peppers",
+        "1 tbsp olive oil",
+        "Salt",
+        "Pepper"
+      ],
+      "steps": [
+        "Peel and dice sweet potato.",
+        "Sauté with peppers in olive oil until tender.",
+        "Season with salt and pepper."
+      ]
+    },
+
+    {
+      "img": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=400&q=80",
+      "name": "Quinoa Breakfast Bowl",
+      "kcal": "290 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 290,
+        "Protein": "9g",
+        "Carbs": "50g",
+        "Fat": "7g"
+      },
+      "ingredients": [
+        "1 cup cooked quinoa",
+        "1/2 cup berries",
+        "1 tbsp maple syrup",
+        "Coconut flakes"
+      ],
+      "steps": [
+        "Place quinoa in a bowl.",
+        "Top with berries and coconut flakes.",
+        "Drizzle maple syrup and serve."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/2a/d9/f2/2ad9f266a081960ba268e761b9a2a64f.jpg",
+      "name": "Egg White Frittata",
+      "kcal": "180 kcal",
+      "tag": "Low Carb",
+      "nutrition": {
+        "Calories": 180,
+        "Protein": "16g",
+        "Carbs": "5g",
+        "Fat": "4g"
+      },
+      "ingredients": [
+        "4 egg whites",
+        "1/2 cup chopped vegetables",
+        "Salt",
+        "Pepper"
+      ],
+      "steps": [
+        "Preheat oven to 180°C.",
+        "Whisk egg whites with salt and pepper.",
+        "Bake with vegetables for 15–20 minutes."
+      ]
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1570197571499-166b36435e9f?auto=format&fit=crop&w=400&q=80",
+      "name": "Smoked Salmon Wrap",
+      "kcal": "300 kcal",
+      "tag": "High Protein",
+      "nutrition": {
+        "Calories": 300,
+        "Protein": "20g",
+        "Carbs": "12g",
+        "Fat": "18g"
+      },
+      "ingredients": [
+        "1 low-carb tortilla",
+        "50g smoked salmon",
+        "2 tbsp cream cheese",
+        "Lettuce leaves"
+      ],
+      "steps": [
+        "Spread cream cheese on tortilla.",
+        "Add salmon and lettuce.",
+        "Roll up and serve."
+      ]
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=400&q=80",
+      "name": "Mushroom & Spinach Scramble",
+      "kcal": "230 kcal",
+      "tag": "Keto",
+      "nutrition": {
+        "Calories": 230,
+        "Protein": "14g",
+        "Carbs": "6g",
+        "Fat": "16g"
+      },
+      "ingredients": [
+        "3 eggs",
+        "1/2 cup mushrooms",
+        "1/2 cup spinach",
+        "1 tbsp olive oil",
+        "Salt",
+        "Pepper"
+      ],
+      "steps": [
+        "Heat olive oil, sauté mushrooms for 3 minutes.",
+        "Add spinach until wilted.",
+        "Pour in eggs, scramble until cooked."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/8d/b8/6e/8db86ec382296c14d32796ca164ed01f.jpg",
+      "name": "Overnight Oats",
+      "kcal": "260 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 260,
+        "Protein": "8g",
+        "Carbs": "45g",
+        "Fat": "6g"
+      },
+      "ingredients": [
+        "1/2 cup rolled oats",
+        "1 cup almond milk",
+        "1 tbsp chia seeds",
+        "Berries for topping"
+      ],
+      "steps": [
+        "Mix oats, almond milk, and chia seeds in a jar.",
+        "Refrigerate overnight.",
+        "Top with berries before serving."
+      ]
+    }
+  ],
+
+  "Lunch": [
+    {
+      "img": "https://i.pinimg.com/1200x/da/61/fd/da61fd25696d34fbcfb53712cbbb5be6.jpg",
+      "name": "Grilled Chicken Salad",
+      "kcal": "350 kcal",
+      "tag": "Low Carb",
+      "nutrition": {
+        "Calories": 350,
+        "Protein": "28g",
+        "Carbs": "12g",
+        "Fat": "20g"
+      },
+      "ingredients": [
+        "150g grilled chicken breast",
+        "2 cups mixed greens",
+        "1/2 cup cherry tomatoes",
+        "1/4 cup cucumber slices",
+        "Olive oil",
+        "Lemon juice",
+        "Salt",
+        "Pepper"
+      ],
+      "steps": [
+        "Season chicken with salt and pepper, grill until cooked.",
+        "Toss greens, tomatoes, and cucumber in a bowl.",
+        "Top with chicken, drizzle olive oil and lemon juice."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/86/0b/a9/860ba99f07e217d664e55fdb3c9b7eb2.jpg",
+      "name": "Quinoa & Roasted Veggie Bowl",
+      "kcal": "420 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 420,
+        "Protein": "12g",
+        "Carbs": "65g",
+        "Fat": "12g"
+      },
+      "ingredients": [
+        "1 cup cooked quinoa",
+        "1 cup roasted vegetables (zucchini, peppers, carrots)",
+        "1 tbsp olive oil",
+        "Salt",
+        "Pepper"
+      ],
+      "steps": [
+        "Roast vegetables in olive oil, salt, and pepper until tender.",
+        "Place quinoa in a bowl and top with vegetables.",
+        "Serve warm."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/71/59/07/71590719c5361e148ea2f12fefc8db91.jpg",
+      "name": "Turkey Wrap",
+      "kcal": "320 kcal",
+      "tag": "High Protein",
+      "nutrition": {
+        "Calories": 320,
+        "Protein": "25g",
+        "Carbs": "28g",
+        "Fat": "10g"
+      },
+      "ingredients": [
+        "1 whole wheat tortilla",
+        "4 slices turkey breast",
+        "Lettuce leaves",
+        "2 tbsp hummus",
+        "Cucumber slices"
+      ],
+      "steps": [
+        "Spread hummus on tortilla.",
+        "Add turkey, lettuce, and cucumber.",
+        "Roll up and slice in half."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/26/c8/a3/26c8a39c720948fff2f4f5842dfadc92.jpg",
+      "name": "Lentil Soup",
+      "kcal": "280 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 280,
+        "Protein": "14g",
+        "Carbs": "45g",
+        "Fat": "6g"
+      },
+      "ingredients": [
+        "1 cup lentils",
+        "1 diced carrot",
+        "1 diced celery stick",
+        "1/2 cup onions",
+        "4 cups vegetable broth",
+        "Salt",
+        "Pepper"
+      ],
+      "steps": [
+        "Sauté onions, carrots, and celery until softened.",
+        "Add lentils and broth, bring to a boil.",
+        "Simmer until lentils are tender, season to taste."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/74/3e/43/743e43006cddd2d600154632f09e903d.jpg",
+      "name": "Shrimp & Avocado Salad",
+      "kcal": "360 kcal",
+      "tag": "Keto",
+      "nutrition": {
+        "Calories": 330,
+        "Protein": "22g",
+        "Carbs": "9g",
+        "Fat": "24g"
+      },
+      "ingredients": [
+        "150g cooked shrimp",
+        "1 avocado (diced)",
+        "1 cup mixed greens",
+        "Olive oil",
+        "Lemon juice",
+        "Salt",
+        "Pepper"
+      ],
+      "steps": [
+        "Toss shrimp and avocado with greens.",
+        "Drizzle with olive oil and lemon juice.",
+        "Season and serve."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/736x/bd/74/03/bd7403475338a4e47e9a45646724a1dc.jpg",
+      "name": "Grilled Salmon with Asparagus",
+      "kcal": "400 kcal",
+      "tag": "High Protein",
+      "nutrition": {
+        "Calories": 400,
+        "Protein": "35g",
+        "Carbs": "10g",
+        "Fat": "24g"
+      },
+      "ingredients": [
+        "150g salmon fillet",
+        "1 cup asparagus",
+        "Olive oil",
+        "Salt",
+        "Pepper",
+        "Lemon slices"
+      ],
+      "steps": [
+        "Season salmon and asparagus with salt, pepper, and olive oil.",
+        "Grill until salmon is cooked through and asparagus is tender.",
+        "Serve with lemon slices."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/736x/bf/86/69/bf86698128ec3bb00ed80b3384bc0187.jpg",
+      "name": "Vegetable Stir-Fry with Tofu",
+      "kcal": "350 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 350,
+        "Protein": "18g",
+        "Carbs": "30g",
+        "Fat": "18g"
+      },
+      "ingredients": [
+        "200g firm tofu",
+        "1 cup broccoli",
+        "1/2 cup bell peppers",
+        "Soy sauce",
+        "Sesame oil"
+      ],
+      "steps": [
+        "Sauté tofu in sesame oil until golden.",
+        "Add vegetables and stir-fry for 3–4 minutes.",
+        "Season with soy sauce and serve."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/736x/73/1d/12/731d12441e6f8ae400df48d29d6eb8d0.jpg",
+      "name": "Whole Wheat Pasta with Pesto",
+      "kcal": "420 kcal",
+      "tag": "Vegetarian",
+      "nutrition": {
+        "Calories": 420,
+        "Protein": "15g",
+        "Carbs": "65g",
+        "Fat": "14g"
+      },
+      "ingredients": [
+        "1 cup whole wheat pasta",
+        "2 tbsp pesto sauce",
+        "Cherry tomatoes",
+        "Parmesan cheese"
+      ],
+      "steps": [
+        "Cook pasta until al dente.",
+        "Toss with pesto and cherry tomatoes.",
+        "Top with parmesan before serving."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/736x/37/16/40/3716409231b4b908fc387a974d5a12a7.jpg",
+      "name": "Chickpea Salad",
+      "kcal": "310 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 310,
+        "Protein": "12g",
+        "Carbs": "45g",
+        "Fat": "9g"
+      },
+      "ingredients": [
+        "1 cup cooked chickpeas",
+        "1/2 cup diced cucumber",
+        "1/2 cup cherry tomatoes",
+        "Olive oil",
+        "Lemon juice",
+        "Salt",
+        "Pepper"
+      ],
+      "steps": [
+        "Combine chickpeas, cucumber, and tomatoes in a bowl.",
+        "Drizzle with olive oil and lemon juice.",
+        "Season and toss well."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/736x/8d/5d/f6/8d5df622f8be16c47d0ec7a0ffbf3ee5.jpg",
+      "name": "Beef & Vegetable Skewers",
+      "kcal": "390 kcal",
+      "tag": "High Protein",
+      "nutrition": {
+        "Calories": 390,
+        "Protein": "32g",
+        "Carbs": "15g",
+        "Fat": "22g"
+      },
+      "ingredients": [
+        "150g beef cubes",
+        "Bell peppers",
+        "Onions",
+        "Cherry tomatoes",
+        "Olive oil",
+        "Salt",
+        "Pepper"
+      ],
+      "steps": [
+        "Thread beef and vegetables onto skewers.",
+        "Brush with olive oil and season.",
+        "Grill until beef is cooked to preference."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/736x/9b/e2/d3/9be2d33db8e4d921614317450a2a2343.jpg",
+      "name": "Baked Sweet Potato with Black Beans",
+      "kcal": "380 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 380,
+        "Protein": "14g",
+        "Carbs": "70g",
+        "Fat": "7g"
+      },
+      "ingredients": [
+        "1 large sweet potato",
+        "1 cup cooked black beans",
+        "1/4 cup corn",
+        "Salsa",
+        "Cilantro"
+      ],
+      "steps": [
+        "Bake sweet potato until soft.",
+        "Top with black beans, corn, and salsa.",
+        "Garnish with cilantro and serve."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/d8/29/81/d82981f3734b5e76e96cb03715f4dfd0.jpg",
+      "name": "Grilled Veggie Panini",
+      "kcal": "360 kcal",
+      "tag": "Vegetarian",
+      "nutrition": {
+        "Calories": 360,
+        "Protein": "15g",
+        "Carbs": "48g",
+        "Fat": "14g"
+      },
+      "ingredients": [
+        "2 slices whole grain bread",
+        "Grilled zucchini",
+        "Grilled bell peppers",
+        "Mozzarella cheese",
+        "Pesto sauce"
+      ],
+      "steps": [
+        "Spread pesto on bread slices.",
+        "Layer vegetables and mozzarella.",
+        "Grill in a panini press until cheese melts."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/c2/ea/84/c2ea846cbb66bdb1b8db30337f707ab8.jpg",
+      "name": "Teriyaki Chicken Rice Bowl",
+      "kcal": "450 kcal",
+      "tag": "High Protein",
+      "nutrition": {
+        "Calories": 450,
+        "Protein": "32g",
+        "Carbs": "55g",
+        "Fat": "10g"
+      },
+      "ingredients": [
+        "150g chicken breast",
+        "1 cup cooked rice",
+        "1/2 cup steamed broccoli",
+        "Teriyaki sauce",
+        "Sesame seeds"
+      ],
+      "steps": [
+        "Grill chicken and slice.",
+        "Serve over rice with broccoli.",
+        "Drizzle with teriyaki sauce and sprinkle sesame seeds."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/fc/74/db/fc74dbec6b5da050c4414828600e86a2.jpg",
+      "name": "Greek Salad with Grilled Halloumi",
+      "kcal": "340 kcal",
+      "tag": "Vegetarian",
+      "nutrition": {
+        "Calories": 340,
+        "Protein": "18g",
+        "Carbs": "14g",
+        "Fat": "24g"
+      },
+      "ingredients": [
+        "100g halloumi cheese",
+        "1 cup cucumber slices",
+        "1/2 cup cherry tomatoes",
+        "1/4 cup olives",
+        "Olive oil",
+        "Oregano"
+      ],
+      "steps": [
+        "Grill halloumi until golden.",
+        "Combine vegetables and olives in a bowl.",
+        "Top with halloumi, drizzle olive oil, and sprinkle oregano."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/06/3c/04/063c04c0eddb9242aa43b5d37d8ac3ab.jpg",
+      "name": "Stuffed Bell Peppers",
+      "kcal": "370 kcal",
+      "tag": "Low Carb",
+      "nutrition": {
+        "Calories": 370,
+        "Protein": "22g",
+        "Carbs": "18g",
+        "Fat": "22g"
+      },
+      "ingredients": [
+        "2 large bell peppers",
+        "150g ground turkey",
+        "1/2 cup diced onions",
+        "1/2 cup tomato sauce",
+        "Cheddar cheese"
+      ],
+      "steps": [
+        "Cut tops off peppers and remove seeds.",
+        "Cook turkey with onions and tomato sauce.",
+        "Stuff peppers, top with cheese, and bake until tender."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/87/84/e6/8784e65fe29cc9e06e498fb52ff89229.jpg",
+      "name": "Sushi Bowl",
+      "kcal": "390 kcal",
+      "tag": "Pescatarian",
+      "nutrition": {
+        "Calories": 390,
+        "Protein": "20g",
+        "Carbs": "50g",
+        "Fat": "12g"
+      },
+      "ingredients": [
+        "1 cup sushi rice",
+        "100g raw salmon",
+        "Cucumber slices",
+        "Avocado slices",
+        "Soy sauce",
+        "Sesame seeds"
+      ],
+      "steps": [
+        "Place rice in a bowl.",
+        "Arrange salmon, cucumber, and avocado on top.",
+        "Drizzle soy sauce and sprinkle sesame seeds."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/736x/4a/3d/08/4a3d087c027f3c8b1896b42a86486956.jpg",
+      "name": "Zucchini Noodles with Pesto",
+      "kcal": "280 kcal",
+      "tag": "Keto",
+      "nutrition": {
+        "Calories": 280,
+        "Protein": "10g",
+        "Carbs": "12g",
+        "Fat": "22g"
+      },
+      "ingredients": [
+        "2 medium zucchinis (spiralized)",
+        "2 tbsp pesto sauce",
+        "Cherry tomatoes",
+        "Parmesan cheese"
+      ],
+      "steps": [
+        "Sauté zucchini noodles for 2 minutes.",
+        "Toss with pesto and cherry tomatoes.",
+        "Top with parmesan and serve."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/bb/c7/fc/bbc7fc47f735286b4ec0437b5a74a403.jpg",
+      "name": "Chicken Caesar Salad",
+      "kcal": "360 kcal",
+      "tag": "High Protein",
+      "nutrition": {
+        "Calories": 360,
+        "Protein": "32g",
+        "Carbs": "8g",
+        "Fat": "22g"
+      },
+      "ingredients": [
+        "150g grilled chicken",
+        "2 cups romaine lettuce",
+        "Caesar dressing",
+        "Parmesan cheese",
+        "Croutons"
+      ],
+      "steps": [
+        "Chop lettuce and place in a bowl.",
+        "Add sliced chicken, dressing, and parmesan.",
+        "Top with croutons and serve."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/736x/78/ce/9c/78ce9ccbfcaad5712800f694a2fd22bd.jpg",
+      "name": "Falafel Wrap",
+      "kcal": "400 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 400,
+        "Protein": "15g",
+        "Carbs": "55g",
+        "Fat": "14g"
+      },
+      "ingredients": [
+        "1 whole wheat tortilla",
+        "4 falafel balls",
+        "Lettuce",
+        "Tomato slices",
+        "Tahini sauce"
+      ],
+      "steps": [
+        "Warm tortilla and arrange lettuce and tomatoes.",
+        "Add falafel and drizzle tahini sauce.",
+        "Wrap and serve."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/94/c8/9a/94c89a44165e333a065216e64d5496d8.jpg",
+      "name": "Bulgur Wheat Tabbouleh",
+      "kcal": "310 kcal",
+      "tag": "Vegetarian",
+      "nutrition": {
+        "Calories": 310,
+        "Protein": "9g",
+        "Carbs": "50g",
+        "Fat": "10g"
+      },
+      "ingredients": [
+        "1 cup cooked bulgur wheat",
+        "1/2 cup diced tomatoes",
+        "1/2 cup chopped parsley",
+        "Lemon juice",
+        "Olive oil",
+        "Salt"
+      ],
+      "steps": [
+        "Mix bulgur wheat with tomatoes and parsley.",
+        "Drizzle with lemon juice and olive oil.",
+        "Season with salt and serve."
+      ]
+    }
+  ],
+  "Dinner": [
+    {
+      "img": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=400&q=80",
+      "name": "Grilled Salmon with Asparagus",
+      "kcal": "420 kcal",
+      "tag": "Low Carb",
+      "nutrition": {
+        "Calories": 420,
+        "Protein": "35g",
+        "Carbs": "8g",
+        "Fat": "28g"
+      },
+      "ingredients": [
+        "200g salmon fillet",
+        "1 cup asparagus",
+        "1 tbsp olive oil",
+        "Salt",
+        "Pepper",
+        "Lemon wedges"
+      ],
+      "steps": [
+        "Season salmon with salt and pepper",
+        "Grill salmon and asparagus brushed with olive oil for 4–5 minutes per side",
+        "Serve with lemon wedges"
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/ff/f1/7d/fff17d15a478512dc8e01866473b5a24.jpg",
+      "name": "Chicken Stir-Fry",
+      "kcal": "380 kcal",
+      "tag": "High Protein",
+      "nutrition": {
+        "Calories": 380,
+        "Protein": "32g",
+        "Carbs": "20g",
+        "Fat": "18g"
+      },
+      "ingredients": [
+        "200g chicken breast",
+        "1 cup mixed vegetables",
+        "2 tbsp soy sauce",
+        "1 tbsp sesame oil",
+        "Garlic",
+        "Ginger"
+      ],
+      "steps": [
+        "Slice chicken thinly and season lightly",
+        "Stir-fry chicken in sesame oil for 3–4 minutes",
+        "Add vegetables, soy sauce, garlic, and ginger; cook until tender"
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/45/7e/77/457e7795d31b22977c997d205afa6e77.jpg",
+      "name": "Vegetable Lentil Soup",
+      "kcal": "310 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 310,
+        "Protein": "15g",
+        "Carbs": "45g",
+        "Fat": "6g"
+      },
+      "ingredients": [
+        "1 cup lentils",
+        "1 cup diced carrots",
+        "1/2 cup celery",
+        "1 onion",
+        "4 cups vegetable broth",
+        "Herbs",
+        "Salt",
+        "Pepper"
+      ],
+      "steps": [
+        "Sauté onions, carrots, and celery for 5 minutes.",
+        "Add lentils, broth, herbs, salt, and pepper.",
+        "Simmer for 25–30 minutes until lentils are tender."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/4c/8a/0c/4c8a0cae94203c3374d2d5d556556880.jpg",
+      "name": "Beef & Broccoli",
+      "kcal": "450 kcal",
+      "tag": "Low Carb",
+      "nutrition": {
+        "Calories": 450,
+        "Protein": "40g",
+        "Carbs": "14g",
+        "Fat": "28g"
+      },
+      "ingredients": [
+        "200g beef strips",
+        "1 cup broccoli florets",
+        "2 tbsp soy sauce",
+        "1 tbsp oyster sauce",
+        "1 tbsp olive oil",
+        "Garlic"
+      ],
+      "steps": [
+        "Heat oil and sear beef for 3 minutes.",
+        "Add broccoli, soy sauce, oyster sauce, and garlic.",
+        "Stir-fry until broccoli is crisp-tender."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/736x/c4/9c/89/c49c892c4e71b6247facd7ca8b1e81eb.jpg",
+      "name": "Quinoa Stuffed Peppers",
+      "kcal": "350 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 350,
+        "Protein": "12g",
+        "Carbs": "55g",
+        "Fat": "8g"
+      },
+      "ingredients": [
+        "4 bell peppers",
+        "1 cup cooked quinoa",
+        "1 cup black beans",
+        "1/2 cup corn",
+        "Tomato sauce",
+        "Salt",
+        "Pepper"
+      ],
+      "steps": [
+        "Cut tops off peppers and remove seeds.",
+        "Mix quinoa, beans, corn, tomato sauce, salt, and pepper.",
+        "Stuff peppers and bake at 180°C for 20–25 minutes."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/736x/d8/cc/23/d8cc2393b4907dc2b3ceaebc4fd2c34c.jpg",
+      "name": "Zucchini Noodles with Pesto",
+      "kcal": "290 kcal",
+      "tag": "Keto",
+      "nutrition": {
+        "Calories": 290,
+        "Protein": "10g",
+        "Carbs": "12g",
+        "Fat": "22g"
+      },
+      "ingredients": [
+        "2 zucchinis",
+        "1/4 cup pesto sauce",
+        "Cherry tomatoes",
+        "Parmesan cheese",
+        "Salt",
+        "Pepper"
+      ],
+      "steps": [
+        "Spiralize zucchinis into noodles.",
+        "Sauté lightly, add pesto, and toss to coat.",
+        "Top with cherry tomatoes and parmesan."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/5b/27/95/5b2795628aedbdbd7a034ffbeb6b470e.jpg",
+      "name": "Baked Cod with Vegetables",
+      "kcal": "330 kcal",
+      "tag": "Keto",
+      "nutrition": {
+        "Calories": 330,
+        "Protein": "30g",
+        "Carbs": "10g",
+        "Fat": "18g"
+      },
+      "ingredients": [
+        "200g cod fillet",
+        "1 cup mixed vegetables",
+        "1 tbsp olive oil",
+        "Lemon juice",
+        "Salt",
+        "Pepper"
+      ],
+      "steps": [
+        "Place cod and vegetables on a baking sheet.",
+        "Drizzle with olive oil, lemon juice, salt, and pepper.",
+        "Bake at 180°C for 15–20 minutes."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/93/c8/eb/93c8eb7c650375f3512dc0ab236f0ffe.jpg",
+      "name": "Turkey Meatballs with Tomato Sauce",
+      "kcal": "400 kcal",
+      "tag": "High Protein",
+      "nutrition": {
+        "Calories": 400,
+        "Protein": "35g",
+        "Carbs": "18g",
+        "Fat": "20g"
+      },
+      "ingredients": [
+        "300g ground turkey",
+        "1 egg",
+        "1/2 cup breadcrumbs",
+        "2 cups tomato sauce",
+        "Garlic",
+        "Herbs",
+        "Salt",
+        "Pepper"
+      ],
+      "steps": [
+        "Mix turkey, egg, breadcrumbs, salt, and pepper into meatballs.",
+        "Brown meatballs in a pan.",
+        "Simmer in tomato sauce for 15 minutes."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/46/9a/1e/469a1edfa8a08ca80015eab34d870e8b.jpg",
+      "name": "Shrimp & Vegetable Skewers",
+      "kcal": "320 kcal",
+      "tag": "Low Carb",
+      "nutrition": {
+        "Calories": 320,
+        "Protein": "28g",
+        "Carbs": "9g",
+        "Fat": "20g"
+      },
+      "ingredients": [
+        "200g shrimp",
+        "Bell peppers",
+        "Zucchini",
+        "Olive oil",
+        "Garlic",
+        "Salt",
+        "Pepper"
+      ],
+      "steps": [
+        "Thread shrimp and vegetables onto skewers.",
+        "Brush with olive oil, garlic, salt, and pepper.",
+        "Grill for 3–4 minutes per side."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/736x/10/da/08/10da087d0ea44d0bfdae399541033823.jpg",
+      "name": "Chickpea & Spinach Curry",
+      "kcal": "370 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 370,
+        "Protein": "14g",
+        "Carbs": "50g",
+        "Fat": "14g"
+      },
+      "ingredients": [
+        "1 can chickpeas",
+        "2 cups spinach",
+        "1 cup coconut milk",
+        "2 tbsp curry paste",
+        "Garlic",
+        "Salt"
+      ],
+      "steps": [
+        "Sauté garlic in a pan.",
+        "Add curry paste, coconut milk, and chickpeas.",
+        "Simmer for 10 minutes, stir in spinach until wilted."
+      ]
+    },
+
+    {
+      "img": "https://i.pinimg.com/1200x/fb/a1/87/fba187228af11c8ea00290b1a66edda1.jpg",
+      "name": "Baked Chicken Parmesan",
+      "kcal": "450 kcal",
+      "tag": "High Protein",
+      "nutrition": {
+        "Calories": 450,
+        "Protein": "38g",
+        "Carbs": "22g",
+        "Fat": "24g"
+      },
+      "ingredients": [
+        "2 chicken breasts",
+        "1/2 cup marinara sauce",
+        "1/4 cup mozzarella cheese",
+        "1/4 cup breadcrumbs",
+        "Salt",
+        "Pepper"
+      ],
+      "steps": [
+        "Coat chicken with breadcrumbs, salt, and pepper.",
+        "Bake at 180°C for 20 minutes.",
+        "Top with marinara and mozzarella; bake until cheese melts."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/736x/55/c2/0f/55c20f4afd3b7956de1e3c74d0d3c392.jpg",
+      "name": "Stuffed Zucchini Boats",
+      "kcal": "310 kcal",
+      "tag": "Low Carb",
+      "nutrition": {
+        "Calories": 310,
+        "Protein": "18g",
+        "Carbs": "12g",
+        "Fat": "20g"
+      },
+      "ingredients": [
+        "2 zucchinis",
+        "200g ground turkey",
+        "1/4 cup cheese",
+        "Tomato sauce",
+        "Garlic",
+        "Salt",
+        "Pepper"
+      ],
+      "steps": [
+        "Cut zucchinis in half and scoop out centers.",
+        "Cook turkey with garlic, tomato sauce, salt, and pepper.",
+        "Fill zucchini halves, top with cheese, and bake at 180°C for 15 minutes."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/bf/32/bd/bf32bd8ca777a95d710bfe35e78002da.jpg",
+      "name": "Grilled Tuna Steak",
+      "kcal": "340 kcal",
+      "tag": "Keto",
+      "nutrition": {
+        "Calories": 340,
+        "Protein": "42g",
+        "Carbs": "4g",
+        "Fat": "18g"
+      },
+      "ingredients": [
+        "200g tuna steak",
+        "1 tbsp olive oil",
+        "Lemon juice",
+        "Salt",
+        "Pepper"
+      ],
+      "steps": [
+        "Season tuna with salt, pepper, and lemon juice.",
+        "Brush with olive oil and grill for 2–3 minutes per side.",
+        "Serve immediately."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/736x/47/42/f4/4742f4506db10c73bc6b7b53cfc539ff.jpg",
+      "name": "Vegetable Fried Rice",
+      "kcal": "420 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 420,
+        "Protein": "10g",
+        "Carbs": "70g",
+        "Fat": "12g"
+      },
+      "ingredients": [
+        "2 cups cooked rice",
+        "1 cup mixed vegetables",
+        "2 tbsp soy sauce",
+        "1 tbsp sesame oil",
+        "Garlic"
+      ],
+      "steps": [
+        "Heat sesame oil, sauté garlic and vegetables.",
+        "Add cooked rice and soy sauce, stir-fry for 3–4 minutes.",
+        "Serve hot."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/e7/f6/cb/e7f6cb57fdcd0604f2e35472882b18bf.jpg",
+      "name": "Baked Eggplant Parmesan",
+      "kcal": "370 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 370,
+        "Protein": "14g",
+        "Carbs": "40g",
+        "Fat": "16g"
+      },
+      "ingredients": [
+        "1 large eggplant",
+        "1 cup marinara sauce",
+        "1/2 cup vegan cheese",
+        "Breadcrumbs",
+        "Olive oil",
+        "Salt",
+        "Pepper"
+      ],
+      "steps": [
+        "Slice eggplant, brush with oil, and coat with breadcrumbs.",
+        "Bake at 180°C for 15 minutes.",
+        "Top with marinara and cheese; bake until melted."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/e6/aa/d6/e6aad61ecfbe34d0407e9a76795e3372.jpg",
+      "name": "Teriyaki Chicken Bowl",
+      "kcal": "460 kcal",
+      "tag": "High Protein",
+      "nutrition": {
+        "Calories": 460,
+        "Protein": "36g",
+        "Carbs": "50g",
+        "Fat": "14g"
+      },
+      "ingredients": [
+        "200g chicken breast",
+        "2 tbsp teriyaki sauce",
+        "1 cup rice",
+        "Steamed broccoli"
+      ],
+      "steps": [
+        "Cook chicken in a pan until golden.",
+        "Add teriyaki sauce and simmer for 3 minutes.",
+        "Serve over rice with broccoli."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/ba/d2/87/bad287b4d80f234bca97a749df2f89cf.jpg",
+      "name": "Pasta Primavera",
+      "kcal": "410 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 410,
+        "Protein": "12g",
+        "Carbs": "70g",
+        "Fat": "10g"
+      },
+      "ingredients": [
+        "200g pasta",
+        "1 cup mixed vegetables",
+        "2 tbsp olive oil",
+        "Garlic",
+        "Herbs",
+        "Salt",
+        "Pepper"
+      ],
+      "steps": [
+        "Cook pasta according to package instructions.",
+        "Sauté vegetables with garlic and olive oil.",
+        "Toss pasta with vegetables, herbs, salt, and pepper."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/c9/84/17/c984173f9673b041b77894490ad5abe2.jpg",
+      "name": "Salmon & Quinoa Salad",
+      "kcal": "390 kcal",
+      "tag": "Low Carb",
+      "nutrition": {
+        "Calories": 390,
+        "Protein": "32g",
+        "Carbs": "20g",
+        "Fat": "20g"
+      },
+      "ingredients": [
+        "150g grilled salmon",
+        "1 cup quinoa",
+        "Spinach leaves",
+        "Lemon vinaigrette"
+      ],
+      "steps": [
+        "Grill salmon until cooked.",
+        "Mix quinoa with spinach and vinaigrette.",
+        "Top with salmon and serve."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/736x/ac/6f/c5/ac6fc522109fc3c06bc33913609e7132.jpg",
+      "name": "Turkey Chili",
+      "kcal": "430 kcal",
+      "tag": "High Protein",
+      "nutrition": {
+        "Calories": 430,
+        "Protein": "35g",
+        "Carbs": "40g",
+        "Fat": "15g"
+      },
+      "ingredients": [
+        "300g ground turkey",
+        "1 cup kidney beans",
+        "1 cup diced tomatoes",
+        "Onions",
+        "Chili powder",
+        "Salt",
+        "Pepper"
+      ],
+      "steps": [
+        "Cook turkey and onions until browned.",
+        "Add beans, tomatoes, chili powder, salt, and pepper.",
+        "Simmer for 20 minutes."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/736x/2a/d7/d8/2ad7d81e5eb7d77c2a527b215802eb50.jpg",
+      "name": "Garlic Butter Shrimp Pasta",
+      "kcal": "480 kcal",
+      "tag": "High Protein",
+      "nutrition": {
+        "Calories": 480,
+        "Protein": "28g",
+        "Carbs": "60g",
+        "Fat": "16g"
+      },
+      "ingredients": [
+        "200g pasta",
+        "200g shrimp",
+        "2 tbsp butter",
+        "Garlic",
+        "Parsley",
+        "Salt",
+        "Pepper"
+      ],
+      "steps": [
+        "Cook pasta according to package instructions.",
+        "Sauté garlic in butter, add shrimp and cook until pink.",
+        "Toss pasta with shrimp, parsley, salt, and pepper."
+      ]
+    }
+  ],
+
+  "Smoothies": [
+    {
+      "name": "Mango Banana Smoothie",
+      "img": "https://i.pinimg.com/736x/e5/25/2c/e5252ccb4eb4e740bbcee2407c485e50.jpg",
+      "kcal": "250 kcal",
+      "tag": "Vegan",
+      "ingredients": [
+        "1 mango",
+        "1 banana",
+        "1 cup almond milk",
+        "1 tsp chia seeds"
+      ],
+      "steps": [
+        "Peel and chop mango and banana",
+        "Add all ingredients to blender",
+        "Blend until smooth",
+        "Serve chilled"
+      ]
+    },
+    {
+      "name": "Strawberry Oat Smoothie",
+      "img": "https://i.pinimg.com/1200x/e2/36/09/e236091ecb3c72b2d9b2347c5fb49393.jpg",
+      "kcal": "300 kcal",
+      "tag": "High Protein",
+      "ingredients": [
+        "1 cup strawberries",
+        "1/2 cup rolled oats",
+        "1 cup milk",
+        "1 tbsp honey"
+      ],
+      "steps": [
+        "Wash and hull strawberries",
+        "Add all ingredients to blender",
+        "Blend until creamy",
+        "Pour into a glass and enjoy"
+      ]
+    },
+    {
+      "name": "Avocado Spinach Smoothie",
+      "img": "https://i.pinimg.com/736x/b3/f6/ad/b3f6adffebc3b1e9dd7a8063f61e39fd.jpg",
+      "kcal": "320 kcal",
+      "tag": "Keto",
+      "ingredients": [
+        "1 avocado",
+        "1 cup spinach",
+        "1 cup coconut milk",
+        "1 tbsp flaxseeds"
+      ],
+      "steps": [
+        "Scoop avocado flesh",
+        "Add spinach, coconut milk, and flaxseeds to blender",
+        "Blend until smooth",
+        "Serve immediately"
+      ]
+    },
+    {
+      "name": "Blueberry Almond Smoothie",
+      "img": "https://i.pinimg.com/1200x/51/55/9c/51559cedce1239a406949246e66c5bdc.jpg",
+      "kcal": "280 kcal",
+      "tag": "Low Carb",
+      "ingredients": [
+        "1 cup blueberries",
+        "1 cup almond milk",
+        "2 tbsp almond butter",
+        "1 tsp honey"
+      ],
+      "steps": [
+        "Wash blueberries",
+        "Add all ingredients to blender",
+        "Blend until smooth",
+        "Pour into glass and enjoy"
+      ]
+    },
+    {
+      "name": "Pineapple Coconut Smoothie",
+      "img": "https://i.pinimg.com/736x/78/47/65/78476518462f9183e47a05f3565a2c91.jpg",
+      "kcal": "290 kcal",
+      "tag": "Vegan",
+      "ingredients": [
+        "1 cup pineapple chunks",
+        "1 cup coconut milk",
+        "1 tbsp chia seeds",
+        "Ice cubes"
+      ],
+      "steps": [
+        "Add pineapple, coconut milk, and chia seeds to blender",
+        "Blend until creamy",
+        "Serve with ice cubes"
+      ]
+    },
+    {
+      "name": "Peanut Butter Banana Smoothie",
+      "img": "https://i.pinimg.com/736x/47/76/64/477664235f7b55b9e3fed2f69868f47f.jpg",
+      "kcal": "350 kcal",
+      "tag": "High Protein",
+      "ingredients": [
+        "1 banana",
+        "2 tbsp peanut butter",
+        "1 cup milk",
+        "1 tbsp honey"
+      ],
+      "steps": [
+        "Peel banana",
+        "Add all ingredients to blender",
+        "Blend until smooth",
+        "Serve immediately"
+      ]
+    },
+    {
+      "name": "Cucumber Mint Smoothie",
+      "img": "https://i.pinimg.com/736x/40/de/9b/40de9bb51e9e877643c1e28103f281e6.jpg",
+      "kcal": "200 kcal",
+      "tag": "Low Carb",
+      "ingredients": [
+        "1 cucumber",
+        "1/2 cup mint leaves",
+        "1 cup coconut water",
+        "1 tsp lime juice"
+      ],
+      "steps": [
+        "Peel and chop cucumber",
+        "Add all ingredients to blender",
+        "Blend until smooth",
+        "Serve chilled"
+      ]
+    },
+    {
+      "name": "Raspberry Chia Smoothie",
+      "img": "https://i.pinimg.com/736x/30/e1/68/30e168ca25c633971640f1a798703449.jpg",
+      "kcal": "270 kcal",
+      "tag": "Vegan",
+      "ingredients": [
+        "1 cup raspberries",
+        "1 cup almond milk",
+        "1 tbsp chia seeds",
+        "1 tsp maple syrup"
+      ],
+      "steps": [
+        "Wash raspberries",
+        "Add all ingredients to blender",
+        "Blend until smooth",
+        "Serve chilled"
+      ]
+    },
+    {
+      "name": "Chocolate Protein Smoothie",
+      "img": "https://i.pinimg.com/1200x/95/85/43/9585436c7250d865843e58a9961722a5.jpg",
+      "kcal": "400 kcal",
+      "tag": "High Protein",
+      "ingredients": [
+        "1 banana",
+        "1 scoop chocolate protein powder",
+        "1 cup milk",
+        "1 tbsp peanut butter"
+      ],
+      "steps": [
+        "Peel banana",
+        "Add all ingredients to blender",
+        "Blend until creamy",
+        "Serve immediately"
+      ]
+    },
+    {
+      "name": "Green Detox Smoothie",
+      "img": "https://i.pinimg.com/736x/c3/36/ea/c336ea42b6faba2dfaced77b7ad321c3.jpg",
+      "kcal": "230 kcal",
+      "tag": "Keto",
+      "ingredients": [
+        "1 cup kale",
+        "1/2 avocado",
+        "1 cup coconut water",
+        "1 tsp lemon juice"
+      ],
+      "steps": [
+        "Wash kale",
+        "Add all ingredients to blender",
+        "Blend until smooth",
+        "Serve chilled"
+      ]
+    },
+
+    {
+      "img": "https://i.pinimg.com/736x/e6/59/55/e6595540b69c84d4a55f9615c48b52a2.jpg",
+      "name": "Papaya Banana Smoothie",
+      "kcal": "240 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 240,
+        "Protein": "3g",
+        "Carbs": "55g",
+        "Fat": "1g"
+      },
+      "ingredients": ["1 cup papaya chunks", "1 banana", "1 cup almond milk"],
+      "steps": [
+        "Add papaya, banana, and almond milk to blender.",
+        "Blend until smooth and serve chilled."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/ff/fa/aa/fffaaa6a0774215d2858f3f301533a76.jpg",
+      "name": "Spinach Apple Smoothie",
+      "kcal": "190 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 190,
+        "Protein": "4g",
+        "Carbs": "38g",
+        "Fat": "2g"
+      },
+      "ingredients": ["1 cup spinach", "1 green apple", "1 cup coconut water"],
+      "steps": [
+        "Combine spinach, apple, and coconut water in blender.",
+        "Blend until smooth and drink fresh."
+      ]
+    },
+
+    {
+      "img": "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=400&q=80",
+      "name": "Tropical Sunrise Smoothie",
+      "kcal": "210 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 210,
+        "Protein": "3g",
+        "Carbs": "50g",
+        "Fat": "1g"
+      },
+      "ingredients": [
+        "1/2 cup pineapple chunks",
+        "1/2 cup mango chunks",
+        "1/2 cup orange juice",
+        "1/2 banana",
+        "Ice cubes"
+      ],
+      "steps": [
+        "Add pineapple, mango, banana, and orange juice to blender.",
+        "Blend until smooth.",
+        "Serve cold with ice."
+      ]
+    },
+
+    {
+      "img": "https://i.pinimg.com/736x/2f/65/81/2f65813a255e982e230393967903e147.jpg",
+      "name": "Berry Spinach Smoothie",
+      "kcal": "190 kcal",
+      "tag": "Low Carb",
+      "nutrition": {
+        "Calories": 190,
+        "Protein": "5g",
+        "Carbs": "25g",
+        "Fat": "2g"
+      },
+      "ingredients": [
+        "1/2 cup spinach",
+        "1/2 cup mixed berries",
+        "1/2 cup unsweetened almond milk",
+        "1/4 cup Greek yogurt",
+        "Ice cubes"
+      ],
+      "steps": [
+        "Add spinach, berries, almond milk, and yogurt to blender.",
+        "Blend until smooth.",
+        "Serve cold."
+      ]
+    },
+
+    {
+      "img": "https://i.pinimg.com/1200x/c4/7e/19/c47e19eb186252ae45540e0088ea7269.jpg",
+      "name": "Banana Almond Protein Smoothie",
+      "kcal": "280 kcal",
+      "tag": "High Protein",
+      "nutrition": {
+        "Calories": 280,
+        "Protein": "20g",
+        "Carbs": "28g",
+        "Fat": "10g"
+      },
+      "ingredients": [
+        "1 banana",
+        "1 scoop vanilla protein powder",
+        "1 tbsp almond butter",
+        "1 cup almond milk"
+      ],
+      "steps": [
+        "Place banana, protein powder, almond butter, and almond milk in blender.",
+        "Blend until creamy."
+      ]
+    },
+
+    {
+      "img": "https://i.pinimg.com/736x/97/ce/39/97ce391375bc347a377e17d856cd488c.jpg",
+      "name": "Kiwi Pineapple Smoothie",
+      "kcal": "200 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 200,
+        "Protein": "3g",
+        "Carbs": "48g",
+        "Fat": "1g"
+      },
+      "ingredients": [
+        "2 kiwis",
+        "1 cup pineapple chunks",
+        "1 cup coconut water"
+      ],
+      "steps": [
+        "Blend kiwi, pineapple, and coconut water until smooth.",
+        "Serve cold."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/736x/ec/fc/f2/ecfcf245c8eb5eca54d13fb04b5168b3.jpg",
+      "name": "Berry Chia Smoothie",
+      "kcal": "230 kcal",
+      "tag": "High Protein",
+      "nutrition": {
+        "Calories": 230,
+        "Protein": "15g",
+        "Carbs": "25g",
+        "Fat": "7g"
+      },
+      "ingredients": [
+        "1 cup mixed berries",
+        "1 tbsp chia seeds",
+        "1 scoop protein powder",
+        "1 cup almond milk"
+      ],
+      "steps": [
+        "Add berries, chia seeds, protein powder, and almond milk to blender.",
+        "Blend until smooth."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/736x/d7/ed/ef/d7edefa79a78bfe586674a37f492bc17.jpg",
+      "name": "Coconut Matcha Smoothie",
+      "kcal": "210 kcal",
+      "tag": "Keto",
+      "nutrition": {
+        "Calories": 210,
+        "Protein": "5g",
+        "Carbs": "8g",
+        "Fat": "18g"
+      },
+      "ingredients": [
+        "1 tsp matcha powder",
+        "1 cup coconut milk",
+        "1/2 avocado"
+      ],
+      "steps": [
+        "Blend matcha powder, coconut milk, and avocado until creamy.",
+        "Serve immediately."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/736x/1b/10/06/1b100688f46a352028cf00b71278ee89.jpg",
+      "name": "Tropical Green Smoothie",
+      "kcal": "220 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 220,
+        "Protein": "4g",
+        "Carbs": "46g",
+        "Fat": "3g"
+      },
+      "ingredients": [
+        "1 cup kale",
+        "1/2 cup mango",
+        "1/2 cup pineapple",
+        "1 cup coconut water"
+      ],
+      "steps": [
+        "Blend kale, mango, pineapple, and coconut water until smooth.",
+        "Serve chilled."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/c2/24/93/c224930c4e9423419d00619d3bd3f630.jpg",
+      "name": "Raspberry Yogurt Smoothie",
+      "kcal": "250 kcal",
+      "tag": "High Protein",
+      "nutrition": {
+        "Calories": 250,
+        "Protein": "17g",
+        "Carbs": "28g",
+        "Fat": "6g"
+      },
+      "ingredients": [
+        "1 cup raspberries",
+        "1/2 cup Greek yogurt",
+        "1 cup almond milk"
+      ],
+      "steps": [
+        "Combine raspberries, yogurt, and almond milk in blender.",
+        "Blend until smooth."
+      ]
+    }
+  ],
+
+  "Snacks": [
+    {
+      "img": "https://i.pinimg.com/736x/03/e0/fc/03e0fcb220a4b4ccc2cab2a9970e210d.jpg",
+      "name": "Roasted Chickpeas",
+      "kcal": "180 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 180,
+        "Protein": "7g",
+        "Carbs": "30g",
+        "Fat": "3g"
+      },
+      "ingredients": [
+        "1 cup canned chickpeas",
+        "1 tbsp olive oil",
+        "1/2 tsp paprika",
+        "Salt"
+      ],
+      "steps": [
+        "Preheat oven to 200°C (400°F).",
+        "Toss chickpeas with olive oil, paprika, and salt.",
+        "Roast for 25–30 minutes until crispy."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/6d/33/06/6d33068fb5e41806956cd5f8863f7537.jpg",
+      "name": "Almond Butter Energy Balls",
+      "kcal": "210 kcal",
+      "tag": "High Protein",
+      "nutrition": {
+        "Calories": 210,
+        "Protein": "8g",
+        "Carbs": "18g",
+        "Fat": "12g"
+      },
+      "ingredients": [
+        "1 cup rolled oats",
+        "1/2 cup almond butter",
+        "2 tbsp honey",
+        "1/4 cup protein powder"
+      ],
+      "steps": [
+        "Mix oats, almond butter, honey, and protein powder.",
+        "Form into bite-sized balls.",
+        "Refrigerate for 30 minutes before serving."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/736x/8a/09/1a/8a091ad8511b67d31478bae5499f5464.jpg",
+      "name": "Guacamole with Veggie Sticks",
+      "kcal": "150 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 150,
+        "Protein": "3g",
+        "Carbs": "12g",
+        "Fat": "10g"
+      },
+      "ingredients": [
+        "1 ripe avocado",
+        "1 tbsp lime juice",
+        "Salt",
+        "Assorted veggie sticks"
+      ],
+      "steps": [
+        "Mash avocado with lime juice and salt.",
+        "Serve with carrot, cucumber, and bell pepper sticks."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/736x/5a/a1/20/5aa1209482164945eadff58d367dc1c4.jpg",
+      "name": "Cottage Cheese with Pineapple",
+      "kcal": "140 kcal",
+      "tag": "High Protein",
+      "nutrition": {
+        "Calories": 140,
+        "Protein": "12g",
+        "Carbs": "14g",
+        "Fat": "4g"
+      },
+      "ingredients": ["1/2 cup cottage cheese", "1/2 cup pineapple chunks"],
+      "steps": [
+        "Place cottage cheese in a bowl.",
+        "Top with pineapple chunks and serve."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/7c/e9/1a/7ce91af3c096a2e8839a387a918dee5b.jpg",
+      "name": "Keto Cheese Crisps",
+      "kcal": "160 kcal",
+      "tag": "Keto",
+      "nutrition": {
+        "Calories": 160,
+        "Protein": "10g",
+        "Carbs": "1g",
+        "Fat": "13g"
+      },
+      "ingredients": ["1 cup shredded cheddar cheese"],
+      "steps": [
+        "Preheat oven to 200°C (400°F).",
+        "Spoon small mounds of cheese onto a lined baking sheet.",
+        "Bake for 5–7 minutes until golden and crispy."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/736x/f2/c0/e5/f2c0e591e33be7593d9ccc5657ba67ed.jpg",
+      "name": "Trail Mix",
+      "kcal": "220 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 220,
+        "Protein": "6g",
+        "Carbs": "20g",
+        "Fat": "14g"
+      },
+      "ingredients": [
+        "1/4 cup almonds",
+        "1/4 cup cashews",
+        "2 tbsp raisins",
+        "1 tbsp pumpkin seeds"
+      ],
+      "steps": [
+        "Mix all ingredients in a bowl.",
+        "Store in an airtight container."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/ec/1a/d3/ec1ad36e277809082cc1737ad21ea2e6.jpg",
+      "name": "Egg Salad Lettuce Wraps",
+      "kcal": "190 kcal",
+      "tag": "Low Carb",
+      "nutrition": {
+        "Calories": 190,
+        "Protein": "12g",
+        "Carbs": "2g",
+        "Fat": "15g"
+      },
+      "ingredients": [
+        "2 boiled eggs",
+        "1 tbsp mayonnaise",
+        "Salt",
+        "Pepper",
+        "Lettuce leaves"
+      ],
+      "steps": [
+        "Mash boiled eggs with mayonnaise, salt, and pepper.",
+        "Scoop onto lettuce leaves and roll up."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/a6/6f/c0/a66fc0e6d41226a1f78dbebce55c9cf3.jpg",
+      "name": "Peanut Butter Apple Slices",
+      "kcal": "170 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 170,
+        "Protein": "5g",
+        "Carbs": "20g",
+        "Fat": "8g"
+      },
+      "ingredients": ["1 apple", "2 tbsp peanut butter"],
+      "steps": [
+        "Slice apple into wedges.",
+        "Spread peanut butter on each slice."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/f4/31/ed/f431ed17c56a14d27baa63dde27a2ebb.jpg",
+      "name": "Smoked Salmon Cucumber Bites",
+      "kcal": "130 kcal",
+      "tag": "Keto",
+      "nutrition": {
+        "Calories": 130,
+        "Protein": "9g",
+        "Carbs": "2g",
+        "Fat": "9g"
+      },
+      "ingredients": ["1 cucumber", "50g smoked salmon", "Cream cheese"],
+      "steps": [
+        "Slice cucumber into rounds.",
+        "Top with cream cheese and smoked salmon."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/82/a3/72/82a3729046785c7d47022f11697eeb98.jpg",
+      "name": "Edamame with Sea Salt",
+      "kcal": "120 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 120,
+        "Protein": "11g",
+        "Carbs": "10g",
+        "Fat": "4g"
+      },
+      "ingredients": ["1 cup edamame (in pods)", "Sea salt"],
+      "steps": [
+        "Boil edamame in salted water for 5 minutes.",
+        "Drain and sprinkle with sea salt."
+      ]
+    },
+    {
+      "name": "Protein Bar",
+      "img": "https://i.pinimg.com/1200x/05/cd/a2/05cda2670658b5f9e2c3b4faf7b08fb5.jpg",
+      "kcal": "210 kcal",
+      "tag": "High Protein",
+      "nutrition": {
+        "Calories": 210,
+        "Protein": "20g",
+        "Carbs": "15g",
+        "Fat": "8g"
+      },
+      "ingredients": ["1 protein bar (store-bought or homemade)"],
+      "steps": [
+        "Unwrap protein bar.",
+        "Serve as is or cut into smaller pieces."
+      ]
+    },
+    {
+      "name": "Roasted Almonds",
+      "img": "https://i.pinimg.com/1200x/6d/81/c3/6d81c332697780c484a025a0052c132a.jpg",
+      "kcal": "200 kcal",
+      "tag": "Keto",
+      "nutrition": {
+        "Calories": 200,
+        "Protein": "6g",
+        "Carbs": "5g",
+        "Fat": "18g"
+      },
+      "ingredients": ["1 cup raw almonds", "1 tbsp olive oil", "1/2 tsp salt"],
+      "steps": [
+        "Preheat oven to 180°C (350°F).",
+        "Toss almonds with olive oil and salt.",
+        "Spread on a baking sheet and roast for 10–12 minutes.",
+        "Cool before serving."
+      ]
+    },
+
+    {
+      "img": "https://i.pinimg.com/1200x/d7/4d/33/d74d33153ff1806549a6c8ff02ba2e51.jpg",
+      "name": "Stuffed Celery Sticks",
+      "kcal": "110 kcal",
+      "tag": "Keto",
+      "nutrition": {
+        "Calories": 110,
+        "Protein": "4g",
+        "Carbs": "3g",
+        "Fat": "9g"
+      },
+      "ingredients": [
+        "4 celery sticks",
+        "2 tbsp cream cheese",
+        "1 tsp chopped chives"
+      ],
+      "steps": [
+        "Spread cream cheese into celery sticks.",
+        "Sprinkle with chopped chives before serving."
+      ]
+    },
+
+    {
+      "img": "https://i.pinimg.com/1200x/79/5c/ba/795cba5ac54deb1783b68a5475a29582.jpg",
+      "name": "Baked Zucchini Chips",
+      "kcal": "90 kcal",
+      "tag": "Low Carb",
+      "nutrition": {
+        "Calories": 90,
+        "Protein": "3g",
+        "Carbs": "6g",
+        "Fat": "5g"
+      },
+      "ingredients": ["1 zucchini", "1 tbsp olive oil", "Salt"],
+      "steps": [
+        "Preheat oven to 180°C (350°F).",
+        "Slice zucchini thinly and toss with olive oil and salt.",
+        "Bake for 20 minutes until crispy."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/92/3a/10/923a10c443a5b1badb83292ac3a066b8.jpg",
+      "name": "Hummus with Carrot Sticks",
+      "kcal": "160 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 160,
+        "Protein": "5g",
+        "Carbs": "18g",
+        "Fat": "8g"
+      },
+      "ingredients": ["1/4 cup hummus", "1 cup carrot sticks"],
+      "steps": [
+        "Place hummus in a small bowl.",
+        "Serve with carrot sticks for dipping."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/1200x/a1/cd/03/a1cd03e04bda578308570c0762509345.jpg",
+      "name": "Turkey Roll-Ups",
+      "kcal": "130 kcal",
+      "tag": "Keto",
+      "nutrition": {
+        "Calories": 130,
+        "Protein": "14g",
+        "Carbs": "1g",
+        "Fat": "7g"
+      },
+      "ingredients": [
+        "4 slices turkey breast",
+        "2 tbsp cream cheese",
+        "Cucumber strips"
+      ],
+      "steps": [
+        "Spread cream cheese over turkey slices.",
+        "Place cucumber strips inside and roll up."
+      ]
+    },
+    {
+      "img": "https://i.pinimg.com/736x/78/40/cb/7840cb8d10e6ec6e477dfd78af3ba044.jpg",
+      "name": "Almond Date Bites",
+      "kcal": "180 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 180,
+        "Protein": "4g",
+        "Carbs": "28g",
+        "Fat": "7g"
+      },
+      "ingredients": ["6 dates", "12 almonds"],
+      "steps": [
+        "Slice dates open and remove pits.",
+        "Insert two almonds into each date."
+      ]
+    },
+
+    {
+      "name": "Cucumber Slices with Hummus",
+      "img": "https://i.pinimg.com/1200x/6a/a9/4d/6aa94d586175f8de3eff312a276648ef.jpg",
+      "kcal": "120 kcal",
+      "tag": "Low Carb",
+      "nutrition": {
+        "Calories": 120,
+        "Protein": "4g",
+        "Carbs": "8g",
+        "Fat": "7g"
+      },
+      "ingredients": ["1 cucumber", "1/4 cup hummus"],
+      "steps": [
+        "Wash and slice cucumber.",
+        "Arrange slices on a plate.",
+        "Serve with hummus for dipping."
+      ]
+    },
+
+    {
+      "name": "Celery Sticks with Peanut Butter",
+      "img": "https://i.pinimg.com/1200x/53/0c/d4/530cd4e3612d7116332d1b4223762b5d.jpg",
+      "kcal": "160 kcal",
+      "tag": "Keto",
+      "nutrition": {
+        "Calories": 160,
+        "Protein": "6g",
+        "Carbs": "7g",
+        "Fat": "13g"
+      },
+      "ingredients": ["4 celery sticks", "2 tbsp peanut butter"],
+      "steps": [
+        "Wash and cut celery sticks.",
+        "Fill grooves with peanut butter.",
+        "Serve chilled."
+      ]
+    },
+    {
+      "name": "Mixed Berries",
+      "img": "https://i.pinimg.com/1200x/a9/27/af/a927afa67262a97e1da33706a722754b.jpg",
+      "kcal": "70 kcal",
+      "tag": "Vegan",
+      "nutrition": {
+        "Calories": 70,
+        "Protein": "1g",
+        "Carbs": "17g",
+        "Fat": "0g"
+      },
+      "ingredients": [
+        "1 cup mixed berries (strawberries, blueberries, raspberries)"
+      ],
+      "steps": ["Wash berries thoroughly.", "Serve fresh in a bowl."]
+    }
+  ]
+}

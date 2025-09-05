@@ -1,0 +1,243 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+.hidden {
+  display: none;
+}
+/* background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 1000px;
+  max-height: 100vh;
+  text-align: center;
+  overflow-y: auto; */
+
+.modal-content {
+  background: #fdf6ee;
+  border-radius: 14px;
+  padding-bottom: 26px;
+  width: 650px;
+
+  height: 790px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid #f3c08c;
+  height: auto;
+  animation: slideUpModal 0.5s cubic-bezier(0.42, 0.01, 0.44, 1.01);
+}
+
+.modal-content::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 60px;
+  background: #e87c2e;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.close-btn {
+  position: absolute;
+  top: 18px;
+  right: 24px;
+  font-size: 28px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 20;
+  font-weight: bold;
+}
+
+.modal-header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 70px;
+  padding: 0 32px 0 32px;
+}
+
+#modal-meal-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-right: 28px;
+  border: 2px solid #f3c08c;
+  background: #fff;
+}
+
+.modal-header-info {
+  flex: 1;
+}
+
+#modal-meal-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0 0 2px 0;
+  color: #222;
+}
+
+#modal-meal-tags {
+  margin-bottom: 12px;
+}
+#modal-meal-tags span {
+  display: inline-block;
+  background: #f5b36b;
+  color: #fff;
+  border-radius: 12px;
+  padding: 4px 14px;
+  margin-right: 8px;
+  font-size: 1em;
+  font-weight: 500;
+  margin-top: 6px;
+}
+
+.modal-nutrition {
+  margin: 14px 32px 0 32px;
+  background: #fff7ea;
+  border-radius: 10px;
+  padding: 18px 24px;
+  box-shadow: 0 2px 8px rgba(232, 124, 46, 0.06);
+  border: 1px solid #f3c08c;
+}
+
+.modal-nutrition h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #e87c2e;
+  margin-bottom: 10px;
+}
+
+.modal-nutrition p {
+  font-size: 1.1rem;
+  color: #222;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+@keyframes slideUpModal {
+  from {
+    transform: translateY(60px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 790px) {
+  #meal-modal .modal-content {
+    width: 35rem;
+    min-width: 0;
+    height: 36.5rem;
+    border-radius: none;
+  }
+  .modal-nutrition {
+    margin: 2px 2px 0 2px;
+    background: #fff7ea;
+    border-radius: 10px;
+
+    box-shadow: 0 2px 8px rgba(232, 124, 46, 0.06);
+    border: 1px solid #f3c08c;
+  }
+
+  #modal-meal-title {
+    font-size: 1.7rem;
+    padding-left: 20px;
+  }
+  .modal-content::before {
+    width: 100%;
+    height: 60px;
+  }
+  /* .modal-content {
+    width: 35rem;
+    min-width: 0;
+    height: 36.5rem;
+    border-radius: none;
+  } */
+  .modal-header,
+  .modal-nutrition {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .modal-header {
+    /* flex-direction: column; */
+    align-items: center;
+  }
+  #modal-meal-img {
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
+  .modal-nutrition h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #e87c2e;
+    margin-bottom: 6px;
+  }
+
+  .modal-nutrition p {
+    font-size: 1rem;
+    color: #222;
+    margin: 0;
+    margin-bottom: 0px;
+    letter-spacing: 0.5px;
+  }
+  .modal-content {
+    padding-bottom: 5px;
+  }
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+
+@media (max-width: 500px) {
+  .modal{
+    width: 100%;
+  height: 100%;
+    overflow-x: hidden;}
+  #modal-meal-title {
+    font-size: 1.4rem;
+    padding-left: 10px;
+  }
+  /* #modal-meal-tags{
+ 
+  } */
+  #meal-modal .modal-content {
+    width: 27rem;
+  height: 100%;
+    border-radius: none;
+  }
+  .modal-nutrition {
+    margin: 0px;
+  }
+  .modal-nutrition h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #e87c2e;
+    margin-bottom: 6px;
+  }
+  .modal-nutrition p {
+    font-size: 1.2rem;
+  }
+  #modal-meal-img {
+    width: 250px;
+    height: 150px;
+  }
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Rice",
+    "amount": "10g",
+    "nutrition": { "calories": 36, "protein": 0.7, "carbs": 7.9, "fat": 0.1 }
+  },
+  {
+    "name": "Beans",
+    "amount": "10g",
+    "nutrition": { "calories": 34, "protein": 2.4, "carbs": 6, "fat": 0.1 }
+  },
+  {
+    "name": "Chicken Breast",
+    "amount": "10g",
+    "nutrition": { "calories": 16, "protein": 3.1, "carbs": 0, "fat": 0.3 }
+  },
+  {
+    "name": "Broccoli",
+    "amount": "10g",
+    "nutrition": { "calories": 3, "protein": 0.3, "carbs": 0.6, "fat": 0.03 }
+  },
+  {
+    "name": "Carrots",
+    "amount": "10g",
+    "nutrition": { "calories": 4, "protein": 0.1, "carbs": 1, "fat": 0.02 }
+  },
+  {
+    "name": "Egg",
+    "amount": "10g",
+    "nutrition": { "calories": 15, "protein": 1.3, "carbs": 0.1, "fat": 1.1 }
+  },
+  {
+    "name": "Salmon",
+    "amount": "10g",
+    "nutrition": { "calories": 20, "protein": 2.2, "carbs": 0, "fat": 1.2 }
+  },
+  {
+    "name": "Potato",
+    "amount": "10g",
+    "nutrition": { "calories": 8, "protein": 0.2, "carbs": 1.9, "fat": 0.01 }
+  },
+  {
+    "name": "Spinach",
+    "amount": "10g",
+    "nutrition": { "calories": 2, "protein": 0.3, "carbs": 0.4, "fat": 0.03 }
+  },
+  {
+    "name": "Tomato",
+    "amount": "10g",
+    "nutrition": { "calories": 2, "protein": 0.1, "carbs": 0.5, "fat": 0.02 }
+  },
+  {
+    "name": "Cheese ",
+    "amount": "10g",
+    "nutrition": { "calories": 40, "protein": 2.5, "carbs": 0.1, "fat": 3.3 }
+  },
+  {
+    "name": "Beef",
+    "amount": "10g",
+    "nutrition": { "calories": 25, "protein": 2.6, "carbs": 0, "fat": 1.5 }
+  },
+  {
+    "name": "Yogurt (Plain)",
+    "amount": "10g",
+    "nutrition": { "calories": 6, "protein": 0.3, "carbs": 0.5, "fat": 0.3 }
+  },
+  {
+    "name": "Oats",
+    "amount": "10g",
+    "nutrition": { "calories": 39, "protein": 1.3, "carbs": 7, "fat": 0.7 }
+  },
+  {
+    "name": "Apple",
+    "amount": "10g",
+    "nutrition": { "calories": 5, "protein": 0.1, "carbs": 1.4, "fat": 0.02 }
+  },
+  {
+    "name": "Banana",
+    "amount": "10g",
+    "nutrition": { "calories": 9, "protein": 0.1, "carbs": 2.3, "fat": 0.03 }
+  },
+  {
+    "name": "Almonds",
+    "amount": "10g",
+    "nutrition": { "calories": 58, "protein": 2.1, "carbs": 2, "fat": 5 }
+  },
+  {
+    "name": "Peas",
+    "amount": "10g",
+    "nutrition": { "calories": 8, "protein": 0.5, "carbs": 1.5, "fat": 0.03 }
+  },
+  {
+    "name": "Corn",
+    "amount": "10g",
+    "nutrition": { "calories": 10, "protein": 0.3, "carbs": 2.1, "fat": 0.1 }
+  },
+  {
+    "name": "Sweet Potato",
+    "amount": "10g",
+    "nutrition": { "calories": 9, "protein": 0.2, "carbs": 2.1, "fat": 0.01 }
+  }
+]

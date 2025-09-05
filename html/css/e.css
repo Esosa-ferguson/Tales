@@ -1,0 +1,289 @@
+/* ===== Eproject-responsive.css ===== */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Inter:wght@400;600;700&display=swap");
+
+/* ===== 1300px ===== */
+@media (max-width: 1300px) {
+  .about-text {
+    font-size: 3.2rem;
+    top: 20px;
+    left: 20px;
+  }
+  .overlay {
+    font-size: 1.2rem;
+    padding: 40px;
+    line-height: 1.6;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+}
+
+/* ===== 1200px ===== */
+@media (max-width: 1200px) {
+  .about-text {
+    font-size: 3rem;
+    top: 18px;
+    left: 18px;
+  }
+
+  .overlay {
+    font-size: 1.1rem;
+    padding: 36px;
+    line-height: 1.6;
+  }
+  .avatar {
+    width: 100px;
+    height: 100px;
+  }
+  .person-name {
+    font-size: 1.2rem;
+  }
+}
+
+/* ===== 1100px ===== */
+@media (max-width: 1100px) {
+  .about-text {
+    font-size: 2.8rem;
+    top: 16px;
+    left: 16px;
+  }
+  .container {
+    width: 90%;
+  }
+  .overlay {
+    font-size: 1.05rem;
+    padding: 32px;
+  }
+
+  .block-title {
+    font-size: 1.5rem;
+  }
+}
+
+/* ===== 1000px ===== */
+@media (max-width: 1000px) {
+  .about-text {
+    font-size: 2.6rem;
+    top: 15px;
+    left: 15px;
+  }
+  .overlay {
+    font-size: 1rem;
+    padding: 30px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    width: 100%;
+    gap: 0;
+  }
+}
+
+/* ===== 900px ===== */
+@media (max-width: 900px) {
+  .about-text {
+    font-size: 2.4rem;
+    top: 14px;
+    left: 14px;
+  }
+  .image-wrapper {
+    width: 90%;
+  }
+  .overlay {
+    font-size: 0.95rem;
+    padding: 28px;
+  }
+}
+
+/* ===== 800px ===== */
+@media (max-width: 800px) {
+  .about-text {
+    font-size: 2.2rem;
+    top: 12px;
+    left: 12px;
+  }
+  .overlay {
+    font-size: 0.9rem;
+    padding: 24px;
+    line-height: 1.5;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 1025px) {
+  .image-wrapper img {
+    opacity: 0.4 !important;
+  }
+  .overlay {
+    opacity: 1 !important;
+  }
+  .about-text {
+    opacity: 1 !important;
+  }
+
+  .image-wrapper:hover img {
+    opacity: 0.4 !important;
+  }
+  .image-wrapper:hover .overlay {
+    opacity: 1 !important;
+  }
+  .image-wrapper:hover .about-text {
+    opacity: 1 !important;
+  }
+}
+
+/* ===== 700px ===== */
+@media (max-width: 700px) {
+  .about-text {
+    font-size: 2rem;
+    top: 10px;
+    left: 10px;
+  }
+
+  .overlay {
+    font-size: 0.85rem;
+    padding: 22px;
+  }
+
+  .avatar {
+    width: 90px;
+    height: 90px;
+  }
+  .container {
+    width: 95%;
+  }
+}
+
+/* ===== 600px ===== */
+@media (max-width: 600px) {
+  .about-text {
+    font-size: 1.8rem;
+    top: 8px;
+    left: 8px;
+  }
+
+  .overlay {
+    font-size: 0.8rem;
+    padding: 20px;
+    line-height: 1.4;
+  }
+  .person-name {
+    font-size: 1.1rem;
+  }
+  .review-input {
+    height: 240px;
+  }
+  .container {
+    width: 100%;
+  }
+  .slider {
+    overflow: hidden;
+    position: relative;
+    margin: 2rem auto;
+  }
+
+  .image-wrapper {
+    width: 95%;
+  }
+  .about-swiper-controls {
+    gap: 70%;
+  }
+}
+
+/* ===== 500px ===== */
+@media (max-width: 500px) {
+  .image-wrapper img {
+    display: none;
+  }
+  .overlay {
+    font-size: 0.75rem;
+    position: relative;
+    background-image: url(../images/Whisk_9d64766506.jpg);
+    padding: 0px;
+    background-size: cover;
+
+    opacity: 0.5;
+  }
+  .overlay-text {
+    background-color: #a5404066;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .block-title {
+    font-size: 1.4rem;
+  }
+  .contact-row {
+    font-size: 1rem;
+  }
+
+  .about-text {
+    position: relative;
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+  }
+}
+
+/* ===== 400px ===== */
+@media (max-width: 400px) {
+  .about-text {
+    font-size: 1.4rem;
+    top: 4px;
+    left: 4px;
+  }
+
+  .avatar {
+    width: 80px;
+    height: 80px;
+  }
+  .person-name {
+    font-size: 1rem;
+  }
+  .section-title {
+    font-size: 1.6rem;
+  }
+  .grid {
+    width: 100%;
+    gap: 0;
+  }
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+  /* .container {
+    width: 90%;
+  } */
+  .card {
+    padding: 24px 15px 28px; /* made it bigger */
+  }
+}
+@media (max-width: 380px) {
+  .card {
+    padding: 24px 8px 28px; /* made it bigger */
+  }
+}
+/* ===== 300px ===== */
+@media (max-width: 300px) {
+  .about-text {
+    font-size: 1.2rem;
+    top: 2px;
+    left: 2px;
+  }
+
+  .review-input {
+    height: 70px;
+    font-size: 0.9rem;
+  }
+  .contact-row {
+    font-size: 0.9rem;
+  }
+  .block-title {
+    font-size: 1.2rem;
+  }
+}

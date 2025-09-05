@@ -1,0 +1,133 @@
+footer{
+    justify-content: center;
+    align-items: center;
+       background: #d7bd93;
+
+
+}
+.flex_wrapper{
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    /* gap: 2rem; */
+    padding: 2.5rem 0;
+}
+.flex_item{
+    border: 1px solid red;
+    width: 25%;
+}
+.flex_item h4{
+    color:  white;
+    font-size: 1.2rem;
+}
+.flex_wrapper .flex_item:first-child{
+    color: white;
+}
+.flex_item .social_icons{
+    
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid blue;
+}
+.flex_item .social_icons a{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all 1s;
+}
+
+.flex_item .social_icons a:hover{
+    background-color: blue;
+}
+
+h4{
+    color: white;
+    padding-bottom: 1rem;
+    justify-content: left;
+}
+footer{
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+}
+.flex{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-evenly;
+}
+.flex1 i{
+    color: white;
+    padding-top: 1.7rem;
+}
+.flex1 header{
+    padding-top: 0.5rem;
+}
+.flex2 ul{
+    list-style: none;
+}
+.flex2 ul li{
+    padding: 0.1rem;
+}
+.flex3 i{
+    padding: 0.8rem;
+}
+.ci{
+    padding-left: 8px;
+}
+.mail{
+     padding: 0.3rem;
+     width:4.8rem;
+     border-radius: 10px;
+}
+.mail{
+    border-radius:0%;
+    padding: 0.4rem;
+    border: white;
+    
+}
+.mailsub{
+    border: 1px solid #2f4155;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0.rem;
+    background-color:white;
+}
+.sub{
+    color: white;
+    background-color: black;
+    padding: 0.5rem;
+} 
+.pflex{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.flex{
+    display: flex;
+    gap: 20px;
+}
+.alt li{
+    color: black;
+}
+.num{
+    padding-left: 50rem;
+}
+.maincontent{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+@media (max-width:888px){
+    footer .flex{
+        display: flex;
+        flex-direction: column;
+    }
+}
